@@ -1,33 +1,33 @@
 package cl.supermercado.Compra.model;
 
-
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "compras")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Table(name = "compra")
+@Getter             @Setter
+@AllArgsConstructor @NoArgsConstructor
 public class Compra {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
+    @Column(name = "usuario_id", nullable = false)
     private Long usuarioId;
 
-    @NotNull
+    @Column(nullable = false)
     private Double total;
 
-    private LocalDateTime fecha;
+    @Column(name = "fecha_compra", nullable = false)
+    private LocalDateTime fechaCompra;
 
-    @NotNull
+    @Column(nullable = false)
+    private Boolean finalizada;
+
+    @Column(name = "pago_confirmado", nullable = false)
     private Boolean pagoConfirmado;
 
-    @NotNull
-    private Boolean finalizada;
 }

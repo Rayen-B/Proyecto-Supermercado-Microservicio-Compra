@@ -1,7 +1,6 @@
-package cl.supermercado.Compra.controller;
-import cl.supermercado.Compra.dto.CompraDTO;
-import cl.supermercado.Compra.model.Compra;
-import cl.supermercado.Compra.service.CompraService;
+package cl.supermercado.compra.controller;
+import cl.supermercado.compra.model.Compra;
+import cl.supermercado.compra.service.CompraService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;

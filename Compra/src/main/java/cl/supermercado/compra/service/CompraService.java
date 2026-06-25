@@ -1,5 +1,5 @@
-package cl.supermercado.Compra.service;
-import cl.supermercado.Compra.model.Compra;
+package cl.supermercado.compra.service;
+import cl.supermercado.compra.model.Compra;
 import java.util.List;
 
 public interface CompraService {

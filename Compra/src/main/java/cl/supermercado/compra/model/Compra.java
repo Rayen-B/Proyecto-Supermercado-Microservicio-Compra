@@ -1,4 +1,4 @@
-package cl.supermercado.Compra.model;
+package cl.supermercado.compra.model;
 
 import jakarta.persistence.*;
 import lombok.*;

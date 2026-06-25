@@ -1,9 +1,9 @@
-package cl.supermercado.Compra.service.impl;
+package cl.supermercado.compra.service.impl;
 
 
-import cl.supermercado.Compra.model.Compra;
-import cl.supermercado.Compra.repository.CompraRepository;
-import cl.supermercado.Compra.service.CompraService;
+import cl.supermercado.compra.model.Compra;
+import cl.supermercado.compra.repository.CompraRepository;
+import cl.supermercado.compra.service.CompraService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

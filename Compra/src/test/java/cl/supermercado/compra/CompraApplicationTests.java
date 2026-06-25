@@ -1,4 +1,4 @@
-package cl.supermercado.Compra;
+package cl.supermercado.compra;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
